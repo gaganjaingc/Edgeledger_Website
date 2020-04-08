@@ -3,7 +3,7 @@
 if(isset($_POST['email'])){
 
 // Email information
-$admin_email = "";
+$admin_email = "youremailid@abc.com";
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
