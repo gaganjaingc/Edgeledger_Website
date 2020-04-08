@@ -1,0 +1,71 @@
+#what #items .item{
+    display: flex;
+    text-align: left;
+    /* display: block; */
+}
+#what #items{
+    display: block;
+    max-width: 100%;
+}
+
+#what #items h3{
+    padding:0px;
+    /* padding-top: 20px; */
+}
+
+#what #items .myitem{
+    padding-bottom: 30px;
+    /* margin-bottom: -20px; */
+}
+
+#what #items .item i{
+    margin-right: 10px;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 500px){
+    #navbar{
+        flex-direction: column;
+    }
+
+    #navbar .logo{
+        padding-bottom: 10px;
+    }
+    
+    #navbar ul{
+        margin-top: 10px;
+    }
+
+    #showcase{
+        position: relative;
+    }
+
+    #showcase .showcase-content{
+        position: absolute;
+        top: 0px;
+    }
+
+    #who {
+        flex-direction: column;
+    }
+
+    #who .who-img{
+        display: none;
+    }
+
+    #clients .clients-logos img{
+        /* flex-direction: column; */
+        width: 80%;
+        /* display: none; */
+    }
+
+    #contact-info{
+        display: block;
+        flex-direction: column;
+    }
+
+    #contact-info .map{
+        height: 200px;
+    }
+}

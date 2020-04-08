@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="/css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1100px)"
+      href="/css/widescreen.css"
+    />
+    <title>EdgeLedger Financial | Accounting</title>
+  </head>
+  <body id="home">
+    <nav id="navbar">
+      <h3 class="logo">
+        <span class="text-primary"> <i class="fas fa-book-open"></i> Edge </span
+        >Ledger
+      </h3>
+      <ul>
+        <li><a href="#showcase">Home</a></li>
+        <li><a href="#what-we">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#contact-info">Contact</a></li>
+      </ul>
+    </nav>
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">The Sky Is The Limit</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, enim?
+        </p>
+        <a href="#what-we" class="btn">Read More</a>
+      </div>
+    </header>
+    <div id="what-we">
+      <div id="container">
+        <h3 class="l-heading"><span class="text-primary">What</span> We Do</h3>
+        <section id="what">
+          <div id="items">
+            <div class="item myitem">
+              <div>
+                <i class="fas fa-university"></i>
+              </div>
+              <div>
+                <h3>Investment Banking</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, fugit?
+                </p>
+              </div>
+            </div>
+            <div class="item myitem">
+              <div>
+                <i class="fas fa-book-reader"></i>
+              </div>
+              <div>
+                <h3>Portfolio Mangament</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, fugit?
+                </p>
+              </div>
+            </div>
+            <div class="item myitem">
+              <div>
+                <i class="fas fa-pencil-alt"></i>
+              </div>
+              <div>
+                <h3>Tax & Custodial</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, fugit?
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="who">
+      <div class="who-img"></div>
+      <div class="who-info">
+        <h3 class="l-heading"><span class="text-primary">Who</span> We Are</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
+          corporis?
+        </p>
+        <h3>Our Team:</h3>
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor sit amet consectetur.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+          <li>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque!
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="clients">
+      <h3 class="l-heading"><span class="text-primary">Our</span> Clients</h3>
+      <div class="client-logos">
+        <div><img src="../img/logos/logo2.png" alt="Clients" /></div>
+        <div><img src="../img/logos/logo3.png" alt="Clients" /></div>
+        <div><img src="../img/logos/logo4.png" alt="Clients" /></div>
+        <div><img src="../img/logos/logo5.png" alt="Clients" /></div>
+      </div>
+    </section>
+
+    <section id="contact-info">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="process.php" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" id="phone" />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <input
+              class="my-btn"
+              type="Submit"
+              value="Send"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer-info">
+      <p>Copyright &copy; 2020 EdgeLedger, All Rights Reserved.</p>
+    </footer>
+
+    <!-- Jquery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps  -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFVOnpkCRupU_G_XhV28czuTxNW4KxRkQ&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+#what #items .item{
+    display: flex;
+    text-align: left;
+}
+
+#what #items .item i{
+    margin-right: 10px;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+#contact-info .map{
+    flex: 2;
+    order: 2;
+}
+
+#contact-info .contact-form{
+    order: 1;
+}
